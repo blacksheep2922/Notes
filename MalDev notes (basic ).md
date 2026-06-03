@@ -17,3 +17,7 @@ There are two main things the User Mode and the Kernel Mode
 
 ![[Pasted image 20260603230111.png]]
 
+
+## Directly invoking the Native API (NTAPI)
+
+Its important to note that applications can invoke syscalls directly without having to go thorugh the wind API. The Windows API simply acts as a wrapper for the native API. With that being said the native API is more difficult to use because it is not officially documented by Microsoft. 
