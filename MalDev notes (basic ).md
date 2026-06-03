@@ -12,6 +12,8 @@ There are two main things the User Mode and the Kernel Mode
 5. Executive kernel - This is what is known as the windows kernel and it calls other drivers and modules the available within kernel mode to complete tasks. The windows kernel is partially stored in a file called **ntoskrnl.exe** 
 --> Under - =="C:/Windows/System32"==
 
-Function Call flow 
+### Function Call flow 
 
+
+![[Pasted image 20260603230111.png]]
 
