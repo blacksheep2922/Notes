@@ -25,3 +25,35 @@ Its important to note that applications can invoke syscalls directly without hav
 
 
 ### Lets make a program to see how to create a file in windows using API
+
+#include <windows.h>
+#include <stdio.h>
+
+int main() {
+    HANDLE hFile;
+
+    hFile = CreateFileW(
+        L"C:\\Users\\abhik\\Desktop\\file.txt",
+        GENERIC_READ | GENERIC_WRITE,
+        FILE_SHARE_READ,
+        NULL,
+        CREATE_ALWAYS,
+        FILE_ATTRIBUTE_NORMAL,
+        NULL
+    );
+
+    if (hFile == INVALID_HANDLE_VALUE) {
+        // %lu is the format specifier for DWORD (unsigned long)
+        printf("CreateFile failed. Error code: %lu\n", GetLastError());
+        return 1;
+    }
+
+    printf("CreateFile success!\n");
+
+    CloseHandle(hFile);
+
+    // Using system("pause") just like your original code
+    system("pause");
+
+    return 0;
+}
