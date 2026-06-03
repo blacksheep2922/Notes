@@ -15,7 +15,7 @@ There are two main things the User Mode and the Kernel Mode
 ### Function Call flow 
 
 
-![](Screenshot%202026-06-03%20230108.png)
+![](Notes_images\Screenshot202026-03-0320230108.png)
 
 ## Directly invoking the Native API (NTAPI)
 
