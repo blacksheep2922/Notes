@@ -68,3 +68,13 @@ Memory in  modern OS  is not mapped directly to physical memory (RAM)
 - with this, addressing it become possible for multiple process to share the same physical address *
 - while having a unique virtual memory address.
 
+
+## Page state 
+
+The page reside within a process's virtual address space can be in one of 3 stare. 
+
+### 1. Free 
+- The page is neither committed nor reserved. The page is not accessible to the process .It is available to be reserved, Committed or simultaneously reserved and committed. Attempting to read from or write to a free page can result in an access violation exception. 
+### 2. Reserved
+* The page has been reserved for future use. The range of address cannot be used by other allocation function. The page is not accessible and has no physical storage associated with it, it is available to be committed. 
+### 3. Committed 
