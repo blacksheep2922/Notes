@@ -78,3 +78,4 @@ The page reside within a process's virtual address space can be in one of 3 star
 ### 2. Reserved
 * The page has been reserved for future use. The range of address cannot be used by other allocation function. The page is not accessible and has no physical storage associated with it, it is available to be committed. 
 ### 3. Committed 
+- Memory charges have been allocated from the overall size of RAM and paging files on disk. The page is accessible and access is controlled by one of the memory protection constants. The initialize and loads each committed page into physical memory only during the first attempt to read or write to that page. When terminated, the system releases the storage for committed pages. 
