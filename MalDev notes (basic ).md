@@ -55,3 +55,12 @@ int main() {
 
     return 0;
 }
+
+
+## Windows Memory Management 
+
+
+Memory in  modern OS  is not mapped directly to physical memory (RAM) 
+--> Virtual Memory address are used by process that are mapped to physical memory address. why ? to save physical memory 
+
+Virtual memory may be mapped  to 
