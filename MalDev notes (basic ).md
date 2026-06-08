@@ -61,6 +61,10 @@ int main() {
 
 
 Memory in  modern OS  is not mapped directly to physical memory (RAM) 
---> Virtual Memory address are used by process that are mapped to physical memory address. why ? to save physical memory 
+ - Virtual Memory address are used by process that are mapped to physical memory address. why ? to save physical memory 
 
-Virtual memory may be mapped  to 
+- Virtual memory may be mapped  to physical memory but can also be stored on disk. 
+
+- with this, addressing it become possible for multiple process to share the same physical address *
+- while having a unique virtual memory address.
+
