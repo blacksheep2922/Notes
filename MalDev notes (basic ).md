@@ -79,3 +79,13 @@ The page reside within a process's virtual address space can be in one of 3 star
 * The page has been reserved for future use. The range of address cannot be used by other allocation function. The page is not accessible and has no physical storage associated with it, it is available to be committed. 
 ### 3. Committed 
 - Memory charges have been allocated from the overall size of RAM and paging files on disk. The page is accessible and access is controlled by one of the memory protection constants. The initialize and loads each committed page into physical memory only during the first attempt to read or write to that page. When terminated, the system releases the storage for committed pages. 
+
+## Memory protection 
+ Modern os have built in memory protection to the exploits and attacks. There are also important to keep in mind as they well likely be encountered when building or debugging the malware. 
+## Data Execution Prevention (DEP)
+
+In a system memory protection features that in bult into the operating system. 
+* Starting with windows XP and windows server 2003. if the page protection option is set to PAGE_READONLY, then DEP will prevent ode from execting in that memory region. 
+
+### Address space layout randomization (ASLR)
+ASLR 
