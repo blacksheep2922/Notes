@@ -95,4 +95,9 @@ ASLR is a memory protection techniques used to prevent the exploitation of memor
 when working with windows process, it's important to not whether the process is x86 or x64. x86 process have a smaller memory space of 4GB(0xfffff) where as x64 has a vastly larger memory space of 128TB. 
 
 lets see some examples of it we can use in our program to see what different functions we can use some of them are : 
-* *
+* **Method 1 - Using malloc()**
+	* ==PVOID pAddress = malloc(100);==
+* **Method 2 - Using HeapAlloc()***
+	* PVOID pAddress = HeapAlloc(GetProcessHeap(),0100);
+* Method 3 - Using Local Alloc()*
+	* PVOID pAddress = LocalAlloc (LPTR,100);
