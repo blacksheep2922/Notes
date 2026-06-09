@@ -98,6 +98,11 @@ lets see some examples of it we can use in our program to see what different fun
 * **Method 1 - Using malloc()**
 	* ==PVOID pAddress = malloc(100);==
 * **Method 2 - Using HeapAlloc()***
-	* PVOID pAddress = HeapAlloc(GetProcessHeap(),0100);
-* Method 3 - Using Local Alloc()*
-	* PVOID pAddress = LocalAlloc (LPTR,100);
+	* ==PVOID pAddress = HeapAlloc(GetProcessHeap(),0100);==
+* **Method 3 - Using Local Alloc()***
+	* ==PVOID pAddress = LocalAlloc (LPTR,100);==
+
+These function return base address which is simply a pointer to the beginning of the memory block that was allocated. 
+
+* pAddress will be the base address of the memory block that was allocated. 
+* Using the pointer several actions can be taken such as reading, writing and executing. 
