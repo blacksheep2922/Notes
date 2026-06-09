@@ -85,13 +85,14 @@ The page reside within a process's virtual address space can be in one of 3 star
 ## Data Execution Prevention (DEP)
 
 In a system memory protection features that in bult into the operating system. 
-* Starting with windows XP and windows server 2003. if the page protection option is set to PAGE_READONLY, then DEP will prevent ode from execting in that memory region. 
+* Starting with windows XP and windows server 2003. if the page protection option is set to PAGE_READONLY, then DEP will prevent ode from exacting in that memory region. 
 
 ### Address space layout randomization (ASLR)
-ASLR is a memory protection techniques used to prevent the explotation of memory corruption vulnerability. ASLR randomly arranges the address space postion of key data areas of a process including the base of the executable and the positions of the stack, heap and libraries. 
+ASLR is a memory protection techniques used to prevent the exploitation of memory corruption vulnerability. ASLR randomly arranges the address space position of key data areas of a process including the base of the executable and the positions of the stack, heap and libraries. 
 
 ### X86 VS X64 memory space 
 
-when working with windows process, it's importatn to not wheather the process is x86 or x64. x86 process have a smaller memory space of 4GB(0xfffff) where as x64 has a vastly larger memory space of 128TB. 
+when working with windows process, it's important to not whether the process is x86 or x64. x86 process have a smaller memory space of 4GB(0xfffff) where as x64 has a vastly larger memory space of 128TB. 
 
-lets see some example
+lets see some examples of it we can use in our program to see what different functions we can use some of them are : 
+* *
