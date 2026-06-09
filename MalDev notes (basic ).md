@@ -88,4 +88,8 @@ In a system memory protection features that in bult into the operating system.
 * Starting with windows XP and windows server 2003. if the page protection option is set to PAGE_READONLY, then DEP will prevent ode from execting in that memory region. 
 
 ### Address space layout randomization (ASLR)
-ASLR 
+ASLR is a memory protection techniques used to prevent the explotation of memory corruption vulnerability. ASLR randomly arranges the address space postion of key data areas of a process including the base of the executable and the positions of the stack, heap and libraries. 
+
+### X86 VS X64 memory space 
+
+when working with windows process, it's importatn to not wheather the process is x86 or x64. x86 
