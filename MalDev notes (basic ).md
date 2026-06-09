@@ -92,4 +92,6 @@ ASLR is a memory protection techniques used to prevent the explotation of memory
 
 ### X86 VS X64 memory space 
 
-when working with windows process, it's importatn to not wheather the process is x86 or x64. x86 
+when working with windows process, it's importatn to not wheather the process is x86 or x64. x86 process have a smaller memory space of 4GB(0xfffff) where as x64 has a vastly larger memory space of 128TB. 
+
+lets see some example
