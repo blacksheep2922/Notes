@@ -105,4 +105,7 @@ lets see some examples of it we can use in our program to see what different fun
 These function return base address which is simply a pointer to the beginning of the memory block that was allocated. 
 
 * pAddress will be the base address of the memory block that was allocated. 
-* Using the pointer several actions can be taken such as reading, writing and executing. 
+* Using the pointer several actions can be taken such as reading, writing and executing.
+
+
+![](Notes_images/Pasted%20image%2020260610201400.png)
