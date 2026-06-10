@@ -108,4 +108,4 @@ These function return base address which is simply a pointer to the beginning of
 * Using the pointer several actions can be taken such as reading, writing and executing.
 
 
-![](Notes_images/Pasted%20image%2020260610201400.png)
+![](<Notes_images/Pasted%20image%2020260610201400.png>)
