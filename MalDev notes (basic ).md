@@ -109,3 +109,8 @@ These function return base address which is simply a pointer to the beginning of
 
 
 ![](<Notes_images/Pasted%20image%2020260610201400.png>)
+
+
+
+![](<Notes_images/Pasted image 20260610201844.png>)
+
