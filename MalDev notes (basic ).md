@@ -114,3 +114,10 @@ These function return base address which is simply a pointer to the beginning of
 
 ![](<Notes_images/Pasted image 20260610201844.png>)
 
+soo code kya kah rha hai :)
+
+## PVOID pAddress = HeapAlloc(GetProcessHeap(),0,100);
+
+Pvoid = API data type defined as a pointer to void representing a pointer to any data type. 
+
+when memory is allocated, it may either be empty or contain random data. Some memory allocated functions provide an option to zero out the memory region during the allocation process.
