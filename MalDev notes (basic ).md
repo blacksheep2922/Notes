@@ -118,8 +118,14 @@ soo code kya kah rha hai :)
 
 ## PVOID pAddress = HeapAlloc(GetProcessHeap(),0,100);
 
-Pvoid = API data type defined as a pointer to void representing a pointer to any data type. It allows functions to accepts memory address of any structure or variable such as when allocating memory with virtual allocating memory with **VirtualAlloc** or passing buffer to API calls like **WriteprocessMemory.**  
+**Pvoid** = API data type defined as a pointer to void representing a pointer to any data type. It allows functions to accepts memory address of any structure or variable such as when allocating memory with virtual allocating memory with **VirtualAlloc** or passing buffer to API calls like **WriteprocessMemory.**  
 
 when memory is allocated, it may either be empty or contain random data. Some memory allocated functions provide an option to zero out the memory region during the allocation process.
 
-HeapAlloc = That allocates a block of memory from a head.
+**HeapAlloc** = That allocates a block of memory from a head. Which is a manager for varitable-Size memory block. It is designed for general- purpose allocating of memory chunks. 
+
+GetProcessHeap() = 
+* The GetProcessHeap function in the windows API retrieves a handle to the default heap of the calling process.  
+* This handle is essential for allocating, reallocating and freeing memory using other heap management. 
+* This function retrieves a handle to the default heap of the calling process. You are essentailly telling HaeapAlloc 
+* 
