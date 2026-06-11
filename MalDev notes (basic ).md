@@ -124,8 +124,18 @@ when memory is allocated, it may either be empty or contain random data. Some me
 
 **HeapAlloc** = That allocates a block of memory from a head. Which is a manager for varitable-Size memory block. It is designed for general- purpose allocating of memory chunks. 
 
-GetProcessHeap() = 
+**GetProcessHeap()** = 
 * The GetProcessHeap function in the windows API retrieves a handle to the default heap of the calling process.  
 * This handle is essential for allocating, reallocating and freeing memory using other heap management. 
 * This function retrieves a handle to the default heap of the calling process. You are essentailly telling HaeapAlloc 
-* 
+* "Hey, use the main memory pool that Windows already set aside for the program".
+
+**Heap-Zero-Memory=**
+* tells the function to clear the allocated memory. 
+* without the flag, the 110 bytes would contain "garbage value".
+* Looklike 
+	* pAddress -> [00100100100 ...upto to 100bytes .. 100]
+
+memcpy
+* It used to copy a specific number of bytes from one memory location to other. 
+* memcpy(pAddress,Cstring,strlen())
