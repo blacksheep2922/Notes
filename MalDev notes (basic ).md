@@ -118,6 +118,8 @@ soo code kya kah rha hai :)
 
 ## PVOID pAddress = HeapAlloc(GetProcessHeap(),0,100);
 
-Pvoid = API data type defined as a pointer to void representing a pointer to any data type. 
+Pvoid = API data type defined as a pointer to void representing a pointer to any data type. It allows functions to accepts memory address of any structure or variable such as when allocating memory with virtual allocating memory with **VirtualAlloc** or passing buffer to API calls like **WriteprocessMemory.**  
 
 when memory is allocated, it may either be empty or contain random data. Some memory allocated functions provide an option to zero out the memory region during the allocation process.
+
+HeapAlloc = That allocates a block of memory from a head.
