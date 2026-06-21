@@ -1,0 +1,2 @@
+
+The windows API gives 
