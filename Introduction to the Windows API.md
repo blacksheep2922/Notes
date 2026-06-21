@@ -9,4 +9,7 @@ The windows API gives developer with the ways for their applications to interact
 
 **VOID** 
 * Indicate the absence of a specific data tpye. 
-* Void **
+* Void * pVariable =NULL; 
+
+PVOID
+* *
