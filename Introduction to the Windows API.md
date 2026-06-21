@@ -13,4 +13,13 @@ The windows API gives developer with the ways for their applications to interact
 
 PVOID
 *  A 32-bit or 4 bytes pointer of any data type on 32-bit systems. Alternatively a 64bit or 8 bytes pointer of any data type on a 64-bit system. 
-	* *
+	* PVOID pVariable = $SomeData;
+
+HANDLE 
+* A value that specific a perticular object that the operating system in managing
+	* file, process, thread 
+		* HANDLE hFile = CreateFile(..);
+
+HMODULE 
+* A handle to module. This is the base address of the module in memory. An example of a Module can be a DLL or EXE file. 
+	* HMODULE hModule =GetModuleHandle(...); *
