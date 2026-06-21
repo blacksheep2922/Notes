@@ -1,2 +1,7 @@
 
-The windows API gives 
+The windows API gives developer with the ways for their applications to interact with windows OS. 
+## Windows Data type
+* The windows api has many data types outside of the well-known ones. 
+* DWORD - A 32-bit unsigned integer, on both 32- bit and 64-bit Systems, used to represent values from 0 to (2^32 -1).*
+	* Example - DWORD dwVariable =42;
+SIZE_t = used to represent the size of an object, 
