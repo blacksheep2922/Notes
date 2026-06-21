@@ -12,4 +12,5 @@ The windows API gives developer with the ways for their applications to interact
 * Void * pVariable =NULL; 
 
 PVOID
-* *
+*  A 32-bit or 4 bytes pointer of any data type on 32-bit systems. Alternatively a 64bit or 8 bytes pointer of any data type on a 64-bit system. 
+	* *
