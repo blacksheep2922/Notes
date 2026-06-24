@@ -46,4 +46,5 @@ This will become useful later when working with windows api that have parameter 
 	* PSIZE_T is the same as SIZE_T
 	* PDWORD is the same as DWORD 
 	
-
+### ANSI  and Unicode Functions
+The
