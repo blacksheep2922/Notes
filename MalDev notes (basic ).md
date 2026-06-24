@@ -139,3 +139,5 @@ when memory is allocated, it may either be empty or contain random data. Some me
 memcpy
 * It used to copy a specific number of bytes from one memory location to other. 
 * memcpy(pAddress,Cstring,strlen(cString));
+
+lets work on 
