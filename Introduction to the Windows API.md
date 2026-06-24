@@ -40,5 +40,10 @@ the only differecne is that LPSTR and PSTR do not point to a constant variable, 
 
 ### Data Types Pointer 
 
-The windows api allows a developer to declare a data type directly or a pointer to the data type names where the data types that start with "p" represents to the actuale data type while the other that don't star
+The windows api allows a developer to declare a data type directly or a pointer to the data type names where the data types that start with "p" represents to the actuale data type while the other that don't start with "p" represent the actual data type itself.
+This will become useful later when working with windows api that have parameter that are pointer to a data type. The example below shoe how the "p" data tyoe relates to its non-poinyer equivalent. 
+	* PHANDLE  is the same as HANDLE*
+	* PSIZE_T is the same as SIZE_T
+	* PDWORD is the same as DWORD 
+	
 
