@@ -23,3 +23,16 @@ HANDLE
 HMODULE 
 * A handle to module. This is the base address of the module in memory. An example of a Module can be a DLL or EXE file. 
 	* HMODULE hModule =GetModuleHandle(...); *
+	*
+## **LPCSTR /PCSTR**
+
+A pointer to a constant null-ternimated string of 8bit windwos charatcter (ANSI)
+
+* The L string for long which is derived from the 16bit windows programming period, nowdays it doesn't affect the data type, but the naming convention still exists
+* The C stands for constanct or read only variable both these data types are equivalent to const char* 
+	* LPCSTR lpcString ="Hello World";
+	* PCSTR pcString = "Hello, World";
+LPSTR/ PSTR 
+
+The same as LPCSTR and PCSTR 
+the only differecne is that LPSTR and PSTR do not point to a constant variable, and instead point to a readable and write able string both these data types are equivalet
