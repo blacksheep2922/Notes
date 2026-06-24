@@ -40,4 +40,5 @@ the only differecne is that LPSTR and PSTR do not point to a constant variable, 
 
 ### Data Types Pointer 
 
-The windows api allows a developer to declare a data type directly or a pointer to the data type names where the data types that start with "p" represents the actual data type itself.
+The windows api allows a developer to declare a data type directly or a pointer to the data type names where the data types that start with "p" represents to the actuale data type while the other that don't star
+
