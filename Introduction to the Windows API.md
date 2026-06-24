@@ -35,4 +35,9 @@ A pointer to a constant null-ternimated string of 8bit windwos charatcter (ANSI)
 LPSTR/ PSTR 
 
 The same as LPCSTR and PCSTR 
-the only differecne is that LPSTR and PSTR do not point to a constant variable, and instead point to a readable and write able string both these data types are equivalet
+the only differecne is that LPSTR and PSTR do not point to a constant variable, and instead point to a readable and write able string both these data types are equivalent to char* 
+
+
+### Data Types Pointer 
+
+The windows api allows a developer to declare a data type directly or a pointer to the data type names where the data types that start with "p" represents the actual data type itself.
