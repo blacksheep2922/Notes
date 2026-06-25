@@ -55,4 +55,5 @@ The main difference to keep in mind is that the ANSI functions will take in ANSI
 For example , the first parameter for CreateFileA is an LPCSTR, which is a pointer to a constant null- terminated string of 8-bit windows ANSI character for CreateFileW is LPCWSTR  a pointer to a constant null-terminated string of 16-bit Unicode characters. 
 
 	Char str1[] = "hii";
-	W	
+	Wchar str2[]	= L"hiii";
+
