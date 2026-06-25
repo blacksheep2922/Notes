@@ -47,4 +47,5 @@ This will become useful later when working with windows api that have parameter 
 	* PDWORD is the same as DWORD 
 	
 ### ANSI  and Unicode Functions
-The
+The majority of windows api functions have two versions ending with either "A" or with "W". 
+for example , there is CreateFileA and CreatefileW The functions ending with "A" are meant to indicate "ANSI"whereas the functions ending with "W represent unicode or "Winde".
