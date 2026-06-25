@@ -57,3 +57,6 @@ For example , the first parameter for CreateFileA is an LPCSTR, which is a point
 	Char str1[] = "hii";
 	Wchar str2[]	= L"hiii";
 
+# PORTABLE EXECUTALBE FORMAL 
+
+the PE is the file format for executable on Windows. A few example of PE file extensions are .exe, dll , .sys. and .scr . 
