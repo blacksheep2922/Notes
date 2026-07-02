@@ -21,4 +21,10 @@ Signature detection is easy to bypass but can be time consuming its important to
 Involves decompiling the suspicious program and comparing code snippets to known malware that are already known and are in heuristic database if a particulate percentage of the source code matches anything in heuristic database , the program is flagged. 
 
 ### Dynamic heuristic 
-The progra
+The program is placed inside a virtual environment or a sandbox which is then analyzed by the security solution for any suspicious behavior. 
+
+## Behavior Based Detection 
+
+The security solution will look for suspicious indicators such as loading a DLL , calling a certain windows API and connecting to internet. 
+
+once the suspicious behavior is detected the security solution will conduct an in-memory scan of the running process . if the process is determined to be malicious, it is terminated. 
