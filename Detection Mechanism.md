@@ -28,3 +28,6 @@ The program is placed inside a virtual environment or a sandbox which is then an
 The security solution will look for suspicious indicators such as loading a DLL , calling a certain windows API and connecting to internet. 
 
 once the suspicious behavior is detected the security solution will conduct an in-memory scan of the running process . if the process is determined to be malicious, it is terminated. 
+
+
+## API HOOKING 
