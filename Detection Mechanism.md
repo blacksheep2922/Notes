@@ -32,4 +32,4 @@ once the suspicious behavior is detected the security solution will conduct an i
 
 ## API HOOKING 
 
-Mainly EDR's , to monitor the process or code execution in real time for malicilous behaviors. API hookinh
+Mainly EDR's , to monitor the process or code execution in real time for malicious behaviors. API hooking works by inter cepting commonly obused API's  and then analyzing the parameter of these API's in real time . This is a powerful way of detection because it allows the security solution to see the  content 
