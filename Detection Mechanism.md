@@ -34,3 +34,10 @@ once the suspicious behavior is detected the security solution will conduct an i
 
 Mainly EDR's , to monitor the process or code execution in real time for malicious behaviors. API hooking works by inter coping commonly obused API's  and then analyzing the parameter of these API's in real time . This is a powerful way of detection because it allows the security solution to see the  content passed to the API after its been de-obfuscated or decrypted This stiction in considered a combination of real time and behavior- based detection. 
 
+
+
+## IAT Checking 
+
+One of the components that were discussed is the import address table. 
+
+it contains functoin names that are used in the PE at runtime. It also contains the library DLL that export these functions. This infroamtion is valuable to a seucrity solution since it known what WinAPi the executalbe is using. 
