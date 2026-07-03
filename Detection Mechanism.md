@@ -31,3 +31,5 @@ once the suspicious behavior is detected the security solution will conduct an i
 
 
 ## API HOOKING 
+
+Mainly EDR's , to monitor the process or code execution in real time for malicilous behaviors. API hookinh
