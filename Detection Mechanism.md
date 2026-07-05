@@ -41,7 +41,3 @@ Mainly EDR's , to monitor the process or code execution in real time for malicio
 One of the components that were discussed is the import address table. 
 
 it contains function names that are used in the PE at runtime. It also contains the library DLL that export these functions. This information is valuable to a security solution since it known what WinAPi the executable is using. 
-
-fail safe system 
-
- work on IOCs 
